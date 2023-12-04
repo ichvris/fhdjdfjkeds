@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>AvaStar</title>
+    <link rel="stylesheet" href="/files/css/style.css" type="text/css">
+  </head>
+  <body>
+
+    <header>
+      <h1>+AvaStar+ <span style="color:#ffffff; font-size:14pt; border:2px solid #A9A9A9; background:#000000; padding:5px;">
+<span id="time">AvaStar</span>
+</span></h1>
+      <nav><a href="/files/launcher64bitWindows/setup_avastar.exe" style="background-color:black">Скачать(64x)</a><a href="/logout" style="background-color:black">Выход</a><a href="/reset" style="background-color:black">Сброс</a><strong>
+	  {% if not token %}
+	  <form method="post" action="/login">
+    <table>
+    <tbody>
+    <tr>
+    <td><label for="passwordField">password</label></td>
+    <td><input id="passwordField" type="password" name="password" required=""></td>
+    </tr>
+    <tr>
+    <td colspan="2" style="text-align: center"><input type="submit" value="come in"></td>
+    </tr>
+    </tbody></table>
+    </form>
+	  {% else %}
+	  <a id="playButton" onclick="play();" href="/#" style="background-color:black">+Играть+</a>
+	  {% endif %}
+	  </strong></nav>
+    </header>
+  <style>
+
+body { background: url(/files/ggg.jpg);
+-moz-background-size: 100%; 
+-webkit-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%; 
+ }
+   
+    header {
+      text-align: justify;
+      letter-spacing: 1px;
+      height: 1em;
+      padding: 2em 3%;
+      background: #ffffff;
+      color: #000;
+    }
+    header h1,
+    header nav {
+      display: inline-block;
+    }
+    header::after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+    header h1 {
+      height: 100%;
+    }
+ 
+    header h1::before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;  
+      height: 50%;
+    }
+
+  </style>
+  <br>
+  <center>
+  <a style="display: none;" id="flash" href="//www.adobe.com/go/getflashplayer" target="_blank">
+                            <img src="//cdn-sp.tortugasocial.com/avataria-vk/img/flash/pnz_page_preloader_button.png"
+                                 alt="Get Adobe Flash player">
+                    </a>
+	<div id="flashContent"></div>
+	</center>
+<script type="text/javascript">  
+setInterval(function () {  
+ date = new Date(),  
+ h = date.getHours(),  
+ m = date.getMinutes(),  
+ s = date.getSeconds(),  
+ h = (h < 10) ? '0' + h : h,  
+ m = (m < 10) ? '0' + m : m,  
+ s = (s < 10) ? '0' + s : s,  
+ document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
+}, 1000);
+</script>
+<center>
+<script>
+        function play(){
+				if (swfobject.getFlashPlayerVersion().major == 0){
+					document.getElementById('flash').style.display = "block";
+					return;
+				}
+				var vars = {};
+				vars['config'] = '/files/appconfig.xml';
+				vars['versions'] = '/files/versions_new1.json?{{ update_time }}';
+				vars['appSwf'] = '/files/pnz-city.swf?{{ update_time }}';
+				var flashVars = [];
+				for (var variable in vars) {
+					flashVars.push(variable + '=' + vars[variable]);
+				}
+				flashVars.push("auth_key={{ token }}");
+				flashVars.push("access_token={{ token }}");
+				flashVars.push("viewer_id={{ uid }}");
+				flashVars.push("user_id={{ uid }}");
+				flashVars.push("api_settings=263");
+				flashVars.push("is_app_user=1");
+				flashVars.push("api_url=https://api.vk.com/api.php");
+				flashVars.push("api_id=7567353");
+				flashVars.push("api_settings=7");
+				flashVars.push("viewer_type=0");
+				flashVars.push("sid={{ uid }}");
+				flashVars.push("group_id=0");
+				flashVars.push("language=0");
+				flashVars.push("parent_language=0");
+				flashVars.push("is_secure=1");
+				flashVars.push("stats_hash={{ access_token }}");
+				flashVars.push("ads_app_id=7567353");
+				flashVars.push("referrer=collections");
+				flashVars.push("lc_name={{ access_token }}");
+				flashVars.push("platform=web");
+				flashVars.push("hash={{ access_token }}");
+				var params = {
+					flashvars: flashVars.join("&"),
+					allowfullscreen: "true",
+					allowscriptaccess: "always",
+					allowFullScreenInteractive: "true",
+					allownetworking: "all",
+					wmode: "transparent"
+				};
+				var el = document.getElementById("flashContent");
+				swfobject.embedSWF("/files/pnz-city-container.swf", el, 1280, 720, 10, false, false, params, {name: "flashContent"});
+        }
+	</script>
+
+</span></center>
+  <script src="/files/swfobject.js"></script>
+  <script src="/files/openapi.js"></script>
+  <script src="/files/xd_connection.js"></script>
+<div id="timedisplay"></div>
+  </body>
+</html>

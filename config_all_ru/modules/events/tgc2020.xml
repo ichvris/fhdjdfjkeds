@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="tgc2020">
+
+    <download url="https://tortuga.games/tgc/" statId="tgc20.downloadLink"/>
+
+    <socials>
+        <social platform="local" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="vkontakte" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="odnoklassniki" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="mailru" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="fotostrana" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="nk" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="draugiem" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="facebook" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="gamesmailru" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+        <social platform="tgc" url="https://vk.com/avataryaclub" statId="tgc20.socialLink"/>
+    </socials>
+
+    <awards price="100" currency="rubs">
+        <award itemId="boyTGCSet" itemType="clothesSet" gender="1"
+            receiveIcon="BoyCostumeTGCIcon@tGCClothes"
+            hint="#boyTGCSetLabel"/>
+        <award itemId="girlTGCSet" itemType="clothesSet" gender="2"
+            receiveIcon="GirlCostumeTGCIcon@tGCClothes"
+            hint="#girlTGCSetLabel"/>
+    </awards>
+
+    <trophy itemId="tgcClient" activityTime="432000" activityFactor="2"/>
+
+    <chatDecor itemId="tgcChatBubble"/>
+
+</module>

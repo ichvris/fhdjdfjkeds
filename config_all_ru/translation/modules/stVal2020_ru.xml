@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <message key="sv2020EventTitle">День всех влюбленных!</message>
+        <message key="sv2020ParticipateDescription">В Аватарии наступил день всех влюбленных! Взаимодействуй с другими аватарами и собирай сердца, которые можно обменять в магазине валентинок на новую одежду и мебель!</message>
+        <message key="sv2020InviteText"> В Аватарии началась акция на День всех влюбленных! Новая одежда, мебель и даже танцы ждут тебя в игре!</message>
+
+        <message key="sv2020BuyHeartsDialogTitle">Покупка сердец!</message>
+        <message key="sv2020BuyHeartsDialogDescription">Не хватает сердец? Самое время пополнить запасы. Не упусти возможность воспользоваться выгодными предложениями!</message>
+
+        <message key="sv2020ShopDialogTitle">Магазин валентинок</message>
+
+        <message key="sv20CollectDialogTitle">Собрать сердца</message>
+        <message key="sv20FriendPanelDescription">Получай ежедневно сердца от активных соседей и за приглашение тех, кто давно не заходил в игру!</message>
+        <message key="sv20ProgressPanelDescription">Собери за время акции :heartsCount: сердец и получи уникальный титул!</message>
+        <message key="sv20CollectPanelTitle">Как еще получить сердца?</message>
+        <message key="sv20NoFriendsPanelDescription">Пригласи своих друзей играть в Аватарию!</message>
+
+        <message key="sv20FirstTipLabel">За взаимодействие с аватарами</message>
+        <message key="sv20FirstTipDescription">За поцелуи и обнимашки с некоторой вероятностью можно получить сердца</message>
+        <message key="sv20SecondTipLabel">За уборку у соседей</message>
+        <message key="sv20SecondTipDescription">Помогай соседям убрать их квартиру и получай в награду сердца</message>
+        <message key="sv20ThirdTipLabel">За угощение в кафе и баре</message>
+        <message key="sv20ThirdTipDescription">За каждое угощение ты получишь сердца. Чем дороже угощение, тем больше сердец</message>
+        <message key="sv20FourthTipLabel">Покупка в магазине</message>
+        <message key="sv20FourthTipDescription">В магазине валентинок можно купить необходимое количество сердец</message>
+
+        <message key="sv20TrophyDescription">Поздравляем с получением титула!</message>
+        <message key="sv20ReceiveTrophyMessage">В Аватарии наступил день всех влюбленных! Мне подарили уникальный титул! Заходи в Аватарию за подарками и призами! :link:</message>
+    </locale>
+</dictionary>

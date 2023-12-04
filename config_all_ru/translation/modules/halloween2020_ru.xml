@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <plural key="hw20Pumpkins">
+            <form>тыква</form>
+            <form>тыквы</form>
+            <form>тыкв</form>
+        </plural>
+
+        <message key="hw20ParticipationDialogDescription">Посети новую локацию "Ферма ужаса"! Найди там Ведьму и купи у нее семена тыкв.  Выращивай тыквы на грядках. Используй выращенный урожай для игры "Мемори", чтобы выиграть конфеты, которые можно обменять на жуткие призы из магазинчика ужасов!</message>
+        <message key="hw20InfoDialogTitle">Ферма ужаса!</message>
+        <message key="hw20InfoDescription1">Перейди на "Ферму ужаса", найди там Ведьму, продающую семена тыкв, и выращивай урожай</message>
+        <message key="hw20InfoDescription2">Используй грядки для посадки урожая тыкв</message>
+        <message key="hw20InfoDescription3">Зарабатывай конфеты, играя с Джеком  в игру Мемори, и обменивай их на уникальные предметы из магазина ужасов</message>
+        <message key="hw20LocationButtonTitle">на ферму</message>
+        <message key="hw20GotoFarmButtonHintMessage">Выращивай тыквы и собирай урожай</message>
+        <message key="hw20NPCName">Ведьма</message>
+        <message key="hw20NPCDirection">Ведьмы</message>
+        <message key="hw20BuySeedDescription">Здравствуй, путник! Не желаешь купить немного семян? С их помощью ты сможешь вырастить урожай тыкв. Но учти, созревшая тыква скоро завянет, так что не забудь собрать урожай! Хе-хе-хе!</message>
+        <message key="hw20BuySeedPanelTitle">Покупка семян</message>
+        <message key="hw20CommonSeedTitle">Тыквенная семечка</message>
+        <message key="hw20GoldSeedTitle">Жуткая семечка</message>
+        <message key="hw20SeedHintDescription">Вырастает :count: каждые :time:</message>
+        <message key="hw20PlantSeedDialogTitle">Посади тыкву!</message>
+        <message key="hw20PlantSeedDialogDescription">Выбери семена, которые хочешь посадить! Семена можно купить у Ведьмы</message>
+        <message key="hw20PlantSeedButtonTitle">посадить</message>
+    </locale>
+</dictionary>

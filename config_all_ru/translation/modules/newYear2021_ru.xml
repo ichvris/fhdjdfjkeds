@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <plural key="ny21Snowflakes">
+            <form>снежинка</form>
+            <form>снежинки</form>
+            <form>снежинок</form>
+        </plural>
+        <plural key="ny21Mittens">
+            <form>варежка</form>
+            <form>варежки</form>
+            <form>варежек</form>
+        </plural>
+        <plural key="ny21Friends">
+            <form>друг</form>
+            <form>друга</form>
+            <form>друзей</form>
+        </plural>
+
+        <!-- fir button statuses -->
+        <message key="ny21FirButtonCraftGarlandHint">Смастери гирлянду</message>
+        <message key="ny21FirButtonAddGarlandHint">Повесь гирлянду на ёлочку</message>
+        <message key="ny21FirButtonLeftTimeHint">Осталось :time:</message>
+        <message key="ny21SnowballCountHint">Осталось бросков: :count:</message>
+
+        <!-- infoPanels -->
+        <message key="ny21BuyFirPanelTitle">Покупка ёлочки</message>
+        <message key="ny21BuyCrTrPanelDescription1">Покупай дополнительные ёлочки и устанавливай их у себя в квартире</message>
+        <message key="ny21BuyCrTrPanelDescription2">Каждая ёлочка приносит 3 снежинки каждые 3 часа</message>
+
+        <message key="ny21CreateGarlandPanelTitle">Гирлянда для ёлочки</message>
+        <message key="ny21CreateGarlandPanelDescription1">Кидайся на улице снежками и собирай лампочки, из которых в мастерской можно смастерить гирлянду</message>
+        <message key="ny21CreateGarlandPanelDescription2">Укрась гирляндой ёлочку и она будет приносить тебе на :garlandBonus: снежинок больше</message>
+
+        <message key="ny21CreateStarPanelTitle">Звезда для ёлочки</message>
+        <message key="ny21CreateStarPanelDescription1">Участвуй в событии “Новогодняя битва”, где нужно сражаться со снеговиками и выбивать из них ледяные осколки, для создания звезды</message>
+        <message key="ny21CreateStarPanelDescription2">Укрась звездой ёлочку и она будет приносить на :starBonus: снежинок больше</message>
+
+        <message key="ny21TrophyProgressPanelTitle">Спасение главной ёлочки Аватарии</message>
+        <message key="ny21TrophyProgressPanelDescription1">Сразись вместе со всеми игроками против злого снеговика и освободи ёлку с подарками</message>
+        <message key="ny21TrophyProgressPanelDescription2">Для сражения смастери в мастерской щит, чтобы противник не заморозил тебя</message>
+        <message key="ny21TrophyProgressPanelDescription3">Собери со злого снеговика :trophyProgress: веток и получи уникальный титул "Герой 2020 года"</message>
+
+        <message key="ny21ProgressDialogTitle">Новогодняя битва</message>
+        <message key="ny21Stage1Description">Смастери гирлянду и повесь ее на ёлочку</message>
+        <message key="ny21Stage2Description">Получи супер-способность для борьбы со злодеями</message>
+        <message key="ny21Stage3Description">Выбей из снеговиков-приспешников снежинки</message>
+        <message key="ny21Stage4Description">Выбей из злодея снежинки. Для защиты от заморозки смастери щит.</message>
+        <message key="ny21Stage5Description">Играй в новогодней локации</message>
+        <message key="ny21StageCompleteDescription">Поздравляем, этап пройден! Ты можешь обменивать снежинки на зимние подарки, пока есть время.</message>
+
+        <message key="ny21MainSnowflakesDescription">Собирай снежинки и покупай на них новую одежду и мебель в новогоднем магазине</message>
+
+        <!-- welcome dialog -->
+        <message key="ny21WelcomeDialogTitle">Украденное Рождество</message>
+        <message key="ny21WelcomeDialogMessageTop1">Победи силы зла, которые хотят украсть наш праздник</message>
+        <message key="ny21WelcomeDialogMessageTop2">Участвуй в мини-играх, чтобы собрать побольше "искр"</message>
+        <message key="ny21WelcomeDialogMessageTop3">Сразись со снеговиками-приспешниками вместе с другими игроками</message>
+        <message key="ny21WelcomeDialogMessageTop4">Одолей главного злодея</message>
+
+        <message key="ny21WelcomeDialogMessageMiddle1">Собери побольше лампочек и смастери из них гирлянду, чтобы украсить свою ёлочку</message>
+        <message key="ny21WelcomeDialogMessageMiddle2">Получи супер-способность для победы над злодеями</message>
+        <message key="ny21WelcomeDialogMessageMiddle3">Обменивай снежинки на подарки</message>
+        <message key="ny21WelcomeDialogMessageMiddle4">Смастери щит для защиты от злодея</message>
+
+        <message key="ny21WelcomeDialogMessageBottom1">Укрась ёлочку гирляндой, она будет давать тебе снежинки на протяжении всей акции</message>
+        <message key="ny21WelcomeDialogMessageBottom4">Получи финальный приз и заверши акцию</message>
+
+        <message key="ny21ThroughLabel">через :time:</message>
+        <message key="ny21PutInTitle">надеть</message>
+        <message key="ny21NeedLabel">нужно</message>
+        <message key="ny21CurrentLabel">у тебя</message>
+        <message key="ny21CollectSnowflakesButtonLabel">собрать снежинки</message>
+
+        <message key="ny21ParticipationDialogTitle">Спаси праздник от злодея</message>
+        <message key="ny21ParticipationDialogMessage">Ёлочка - главное украшение нового года, была заморожена злым снеговиком и его приспешниками. Сразись со злодеем и освободи ёлочку!</message>
+
+        <message key="ny21MittensDialogTitle">Нужны варежки? Приглашай друзей!</message>
+        <message key="ny21MittensDialogMessage">Чем больше твоих друзей играет в Аватарию, тем больше варежек ты будешь получать ежедневно. Просто заходи в игру и не забывай забирать варежки! Надевай их и бегом на улицу — кидаться снежками и получать еще больше снежинок!</message>
+
+        <message key="ny21ThrowSnowballMenuTitle">Снежок</message>
+        <message key="ny21ThrowSnowballNotificationTitle">Осторожно, снежок!</message>
+        <message key="ny21ThrowSnowballNotificationMessage">:userName: :genderDrop: в тебя снежок.</message>
+
+        <message key="ny21UseMittensWearDialogMessage">Чтобы твои руки не замерзли, надень варежки. В них ты можешь кидаться снежками, пока варежки не промокнут.</message>
+        <message key="ny21NotEnoughMittensWearDialogMessage">Мастери варежки в мастерской и играй ими в снежки на улице. Кидайся снежками и получай за это лампочки, которые нужны для создания гирлянды на ёлку.</message>
+
+        <!-- Exchange snowflakes dialog-->
+        <message key="ny21ExchangeSnowflakesDialogTitle">Обмен на подарки!</message>
+        <message key="ny21ExchangeSnowflakesDialogMessage">Обменивай оставшиеся снежинки на новогодние подарки!</message>
+
+        <message key="ny21RightPanelButtonCreateEventHintMessage">Победи злого снеговика и освободи ёлочку</message>
+        <message key="ny21EventFilterLabel">новогоднее</message>
+        <message key="ny21LocationName">Зимняя битва</message>
+
+        <!-- SnowBattle -->
+        <message key="ny21SnowBattleWelcomeDialogTitle">Зимняя битва</message>
+        <message key="ny21SnowBattleWelcomeDialogText">Используй супер-способность и борись со злом</message>
+        <message key="ny21SnowBattleAlreadyStart">Игра уже началась, найди другое событие</message>
+        <message key="ny21SnowBattleWelcomeDialogTextDescription">Сражайся с приспешниками злодея и получи осколки за победу над ними</message>
+        <message key="ny21SnowBattleWelcomeDialogAllies">Собираем команду, чтобы спасти общий праздник</message>
+        <message key="ny21SnowBattleWelcomeDialogAlliesMessage">Ожидание игроков...</message>
+        <message key="ny21SnowBattleNoGun">У тебя нет супер-способности, ты не можешь принять участие в битве</message>
+
+        <!-- awards -->
+        <message key="ny21GiftExchange">Обмен снежинок на подарки</message>
+        <message key="ny21GiftGun">Супер-способность</message>
+        <message key="ny21GiftSkill">Опыт и навык битв</message>
+
+        <!-- module item types -->
+        <message key="ny21GunLabel">Супер-способность</message>
+        <message key="ny21ShieldLabel">Щит от заморозки</message>
+
+        <message key="ny21Lamp1Label">красная лампочка</message>
+        <message key="ny21Lamp2Label">зеленая лампочка</message>
+        <message key="ny21Lamp3Label">синяя лампочка</message>
+        <message key="ny21LampDescription">можно получить, играя в снежки на улице</message>
+
+        <message key="ny21IceShardLabel">осколок льда</message>
+        <message key="ny21IceShardDescription">можно получить, сражаясь со снеговиками</message>
+
+        <message key="ny21SparkLabel">искра</message>
+        <message key="ny21SparkDescription">можно получить, проигрывая в мини-играх</message>
+
+        <message key="ny21MittensLabel">Варежки</message>
+        <message key="ny21MittensDescription">Согреют твои руки при игре в снежки</message>
+
+        <message key="ny21BranchLabel">Ветка</message>
+        <message key="ny21BranchDescription">Можно получить со злого снеговика</message>
+
+        <message key="ny21LeftTime">до :stage: этапа&#13;:time:</message>
+
+        <message key="ny21InterfaceCraftShieldHint">Смастерить защиту</message>
+        <message key="ny21InterfaceHasShieldHint">Есть защита</message>
+
+        <message key="ny21MiniGameVictoryDialogTitle">Ура, победа!</message>
+        <message key="ny21MiniGameVictoryDialogDescription">Борись со снеговиками и получай ледяные осколки</message>
+
+        <message key="ny21WallStageGiftMessage">Мне подарили замечательный подарок в награду за пройденный этап. Хочешь получить такой же? Жду тебя в игре! :link:</message>
+        <message key="ny21WallMiniGameVictoryMessage">Ура, я победил всех снеговиков в новогодней мини-игре! :link:</message>
+        <message key="ny21WallGetTrophyMessage">Ура, мне подарили новогодний титул! Жду тебя в игре! :link:</message>
+
+        <message key="ny21ShopPanelLabel">Новогодний магазин</message>
+
+        <message key="ny2120InfoDialogTitle">Кратко об акции</message>
+
+        <message key="ny2120InfoDialogMessageTop1">Покупай и устанавливай ёлочки у себя дома и получай с каждой по 3 снежинки каждые 3 часа</message>
+        <message key="ny2120InfoDialogMessageTop2">Также ты получишь 3 ёлочки бесплатно: в начале акции, 30 декабря и 6 января</message>
+
+        <message key="ny2120InfoDialogMessageMiddle1">Снежинки нужны для покупки различных предметов в новогоднем магазине</message>
+        <message key="ny2120InfoDialogMessageMiddle2">Украшай ёлочки гирляндами и звездами, чтобы получать с них ещё больше снежинок</message>
+
+        <message key="ny2120InfoDialogMessageBottom1">Сразись в новогодней локации вместе с другими игроками против злого снеговика</message>
+        <message key="ny2120InfoDialogMessageBottom2">Успей освободить главную ёлку Аватарии до 13 января и получи подарки!</message>
+
+        <message key="ny21bossDefeatDescription">Все вместе вы сумели победить главного злодея и освободить ёлочку, под которой тебя ожидают подарки!</message>
+
+        <message key="ny21SnowflakesExchangeDialogTitle">Снежный магазин</message>
+        <message key="ny21BuySnowflakeDialogDescription">Не хватает снежинок? Воспользуйся выгодными предложениями и пополни запасы!</message>
+        <message key="ny21BuySnowflakeDialogTitle">Покупка снежинок</message>
+        <message key="ny21BuySnowflakeNotificationDescription">Ты получаешь :count: :currency:</message>
+
+        <message key="ny21ClothesSetsLabel">Костюмы</message>
+        <message key="ny21ClothesUpLabel">Верх</message>
+        <message key="ny21ClothesDownLabel">Низ</message>
+        <message key="ny21ClothesShoesLabel">Обувь</message>
+        <message key="ny21ClothesAccessoriesLabel">Аксессуары</message>
+        <message key="ny21ClothesColorLabel">Цветная одежда</message>
+
+        <message key="ny21Furniture2014Label">Ледяной дворец</message>
+        <message key="ny21Furniture2015Label">Снежная сказка</message>
+        <message key="ny21Furniture2020Label">Голубой огонек</message>
+        <message key="ny21FiReceivingNotification">Ты получаешь Новогоднюю ёлочку, укрась её и собирай с неё снежинки</message>
+
+        <message key="ny21BossCooldownLabel">Ты недавно участвовал в битве с боссом. Попробуй зайти позже</message>
+    </locale>
+</dictionary>

@@ -1,0 +1,10 @@
+pre-commit
+# game server
+bitstring
+redis
+lxml
+aioredis==1.7.0
+# web
+flask
+# bots
+aiogram

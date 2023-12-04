@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dictionary>
+    <locale name="ru">
+        <message key="showModeratorActions">Действия модератора</message>
+        <message key="moderatorRatingsLabel">Активность модераторов</message>
+        <message key="checkSocialAPI">Проверка социального API</message>
+        <message key="clothesPostEditor">Редактор одежды для постов</message>
+        <message key="findUserButtonLabel">Найти пользователя</message>
+        <message key="reconnectButtonLabel">Перезайти как:</message>
+
+
+        <!-- STICKER PACKS -->
+        <message key="devilStickerPackTitle">Дьяволица</message>
+        <message key="kermitStickerPackTitle">Кермит</message>
+        
+        
+        <!-- AVACITY ACTIONS -->
+        <message key="posePlayerSubMenuTitle">поз-плеер</message>
+        <message key="rockSceneSubMenuTitle">рок-сцена</message>
+        <message key="posingActionTitle">поза :number:</message>
+        <message key="playDrumsActionTitle">играть на барабанах</message>
+        <message key="playGuitarActionTitle">играть на гитаре</message>
+        <message key="playPianoActionTitle">играть на клавишах</message>
+        <message key="vocalActionTitle">петь</message>
+        <message key="danceFlexActionTitle">флекс</message>
+
+
+        <!-- AVACITY TROPHIES -->
+        <message key="angrypremTitle">Злыдень</message>
+        <message key="angrypremDescription"></message>
+        <message key="pusheenTitle">Лапка</message>
+        <message key="pusheenDescription"></message>
+
+        <!-- AVACITY BUBBLES -->
+        <message key="pusheen1ChatBubbleDecorTitle">Злая Pusheen</message>
+        <message key="pusheen2ChatBubbleDecorTitle">Pusheen в очках</message>
+        <message key="bongoChatBubbleDecorTitle">Bongo Cat</message>
+        <message key="nicolasChatBubbleDecorTitle">Николас Кейдж</message>
+        
+        <!-- AVACITY CLOTHES -->
+        <message key="prideFlagLabel">Радужный флаг</message>
+        <message key="girlTShirtBezParneyLabel">Футболка "Без парней"</message>
+        <message key="girlPremHatLabel">Просто шапка</message>
+        <message key="girlJcktNpcCtrrLabel">Жакет Жанны</message>
+        <message key="girlDrssNpcCtrrLabel">Платье Жанны</message>
+        <message key="girlGlssNpcCtrrLabel">Очки Жанны</message>
+        <message key="girlTghtNpcCtrrLabel">Колготки Жанны</message>
+        <message key="girlBtsNpcCtrrLabel">Балетки Жанны</message>
+        <message key="girlTshrtNpcWtrsLabel">Рубашка официантки(Клуб)</message>
+        <message key="girlSkrtNpcWtrsLabel">Юбка официантки(Клуб)</message>
+        <message key="girlBtsNpcWtrsLabel">Балетки официантки(Клуб)</message>
+        <message key="girlDrssNpcCfWtrsLabel">Платье официантки(Кафе)</message>
+        <message key="girlDrssNpcRsrrLabel">Костюм гонщицы</message>
+        <message key="girlTghtNpcRsrrLabel">Чулки гонщицы</message>
+        <message key="girlBtsNpcRsrrLabel">Сапоги гонщицы</message>
+        <message key="girlFlgNpcRsrrLabel">Флаг гонщицы</message>
+        <message key="girlDrssNpcVpWtrsLabel">Костюм танцовщицы</message>
+        <message key="girlSndlsNpcVpWtrsLabel">Туфли танцовщицы</message>
+        <message key="girlEarngsNpcVpWtrsLabel">Серьги танцовщицы</message>
+        <message key="girlClckNpcVpWtrsLabel">Браслет танцовщицы</message>
+        <message key="girlWitchLabel">Ведьма</message>
+        <message key="girlWitchDressLabel">Платье ведьмы</message>
+        <message key="girlWitchHairLabel">Парик ведьмы</message>
+        <message key="girlWitchHatLabel">Шляпа ведьмы</message>
+        <message key="girlWitchChokLabel">Чокер ведьмы</message>
+        <message key="girlWitchEarsLabel">Ушки ведьмы</message>
+        <message key="GirlHazmatMaskLabel">Маска химзащиты</message>
+        <message key="GirlHazmatFullLabel">Костюм химзащиты</message>
+        <message key="girlDiamondPickaxeLabel">Алмазная кирка</message>
+        <message key="girlChickenFriendLabel">Курица</message>
+        <message key="girlCreeperHeadLabel">Маска крипера</message>
+        <message key="girlSlowpokeFriendLabel">Слоупок</message>
+        <message key="GirlOverallsReputationSheriffLabel">Костюм хранителя</message>
+        <message key="GirlOverallsReputationCriminalLabel">Костюм изгоя</message>
+        <message key="GirlMaskReputationCriminalLabel">Маска изгоя</message>
+		<message key="GirlMaskYeLabel">Маска "Глаза"</message>
+		<message key="GirlMaskTnLabel">Маска "Язык"</message>
+        <message key="girlBobFriendLabel">Первобытный Губка Боб</message>
+        <message key="girlRjakaFriendLabel">Rjaka</message>
+        <message key="girlPepeHeadLabel">Голова Пепе</message>
+        <message key="girlPepeMaskLabel">Маска Пепе</message>
+        <message key="girlShrekMaskLabel">Голова Шрека</message>
+        <message key="GirlPepeFriendLabel">Пепе</message>
+        <message key="girlZaebumbaLabel">Заебумба</message>
+        <message key="girlOrekhusLabel">Орехус</message>
+		<message key="girlAdminDildoLabel">Админ дилдо</message>
+		
+		<message key="boyShirtBezBabLabel">Футболка "Без баб"</message>
+		<message key="boyPremPants1Label">Широкие штаны</message>
+		<message key="boyWolfShirtLabel">Футболка "Ауф"</message>
+		<message key="boyWolfPantsLabel">Трусы "Ауф"</message>
+		<message key="boyJcktNpcCckLabel">Фартук повара</message>
+		<message key="boyHatNpcCckLabel">Колпак повара</message>
+		<message key="boyJcktNpcStlstLabel">Пиджак стилиста</message>
+		<message key="boyEarngNpcStlstLabel">Серьга стилиста</message>
+		<message key="boyBrsltNpcStlstLabel">Браслет стилиста</message>
+		<message key="boyPntsNpcStlstLabel">Штаны стилиста</message>
+		<message key="boyBtsNpcStlstLabel">Обувь стилиста</message>
+		<message key="boyJcktNpcCtrrLabel">Пиджак Пьера</message>
+		<message key="boyPntsNpcCtrrLabel">Штаны Пьера</message>
+		<message key="boyBtsNpcCtrrLabel">Обувь Пьера</message>
+		<message key="boyHazmatMaskLabel">Маска химзащиты</message>
+		<message key="boyHazmatFullLabel">Костюм химзащиты</message>
+		<message key="boyCreeperHeadLabel">Голова крипера</message>
+		<message key="boyDiamondSwordLabel">Алмазный меч</message>
+		<message key="boyChickenFriendLabel">Курица</message>
+		<message key="boyPepeHeadLabel">Голова Пепе</message>
+		<message key="boyPepeMaskLabel">Маска Пепе</message>
+		<message key="boyPepeFriendLabel">Питомец Пепе</message>
+		<message key="boyShrekMaskLabel">Маска Шрека</message>
+		<message key="boyZaebumbaLabel">Заебумба</message>
+		<message key="boyOrekhusLabel">Орехус</message>
+		<message key="boyUnicornPinkLabel">Маска единорога</message>
+		<message key="boyMaskYeLabel">Маска "Глаза"</message>
+		<message key="boyMaskTnLabel">Маска "Язык"</message>
+        <message key="boyBobFriendLabel">Первобытный Губка Боб</message>
+		<message key="boyRjakaFriendLabel">Rjaka</message>
+		<message key="boySlowpokeFriendLabel">Слоупок</message>
+		<message key="boyOverallsReputationSheriffLabel">Костюм хранителя</message>
+		<message key="boyMaskYeColLabel">Маска "Глаза"</message>
+		<message key="boyAdminDildoLabel">Админ дилдо</message>
+        <message key="boyJotaroJacketLabel">Плащ Джотаро</message>
+        <message key="boyJotaroShirtLabel">Футболка Джотаро</message>
+        <message key="boyJotaroJeansLabel">Джинсы Джотаро</message>
+        <message key="boyJotaroShoesLabel">Обувь Джотаро</message>
+        <message key="boyJotaroLabel">Джотаро</message>
+    </locale>
+</dictionary>

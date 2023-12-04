@@ -1,0 +1,21 @@
+[{"cil": [
+          {"sc": 0, "gl": 0, "si": 0, "id": 3, "tid": "nsPassport", "cid": 3},
+          {"sc": 0, "gl": 0, "si": 0, "id": 4, "tid": "nsPassportDecor", "cid": 4},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 5, "tid": "chatDecor", "cid": 5},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 6, "tid": "chatDecorShop", "cid": 6},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 7, "tid": "clans", "cid": 7},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 8, "tid": "clanShop", "cid": 8},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 9, "tid": "clanLocationEdit", "cid": 9},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 12, "tid": "professions", "cid": 12},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 13, "tid": "grdnr", "cid": 13},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 14, "tid": "jntr", "cid": 14},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 15, "tid": "vsgst", "cid": 15},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 17, "tid": "schoolAvataria", "cid": 17}, 
+		  {"sc": 0, "gl": 0, "si": 0, "id": 18, "tid": "mobile", "cid": 18},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 21, "tid": "disableCache", "cid": 21},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 22, "tid": "clanActivityRating", "cid": 22}], "st": 1, "v": 1, "id": 1, "tp": 9, "ed": 0, "iu": ""},
+		  
+ {"cil": [{"sc": 0, "gl": 0, "si": 0, "id": 23, "tid": "girlPrideFlags", "cid": 23},
+          {"sc": 0, "gl": 0, "si": 0, "id": 24, "tid": "boyPrideFlags", "cid": 24},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 25, "tid": "boySexyDress1", "cid": 25},
+		  {"sc": 0, "gl": 0, "si": 0, "id": 26, "tid": "boySexyDress2", "cid": 26}], "st": 1, "v": 1, "id": 2, "tp": 5, "ed": 0, "iu": ""}]

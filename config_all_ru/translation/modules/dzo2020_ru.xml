@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <gender key="dzo2020ThrowGender">
+            <form>спрятал</form>
+            <form>спрятала</form>
+        </gender>
+
+        <message key="dzo2020WelcomeDialogTitle">С днем защитника Отечества!</message>
+        <message key="dzo2020WelcomeDialogStarsMessage">Получай звезды и погоны, выполняя различные действия в игре. Чем больше играешь, тем больше звезд и погон можешь собрать каждый день!</message>
+        <message key="dzo2020WelcomeDialogEpaulettesMessage">Прячь погоны в квартирах своих соседей и собирай разбросанные друзьями в своем доме, чтобы получить еще больше звезд.</message>
+        <message key="dzo2020WelcomeDialogAwardMessage">Собирая звезды, ты будешь получать призы. Титул, качели "Самолет" и костюм "Адъютант" можно получить только в период проведения акции!</message>
+
+        <message key="dzo2020NotEnoughEpaulettesDialogMessage">Не хватает погон? Ты можешь получить погоны за уборку в саду, во дворе, у соседей и участвуя в мини-играх. Также можно приобрести за золото.</message>
+
+        <message key="dzo2020youHaveEpaulettesLabel">у тебя</message>
+        <message key="dzo2020buyEpaulettes">Купить :count: за :golds:</message>
+
+        <message key="dzo2020ProgressDialogTitle">Собирай звезды — получай призы</message>
+        <message key="dzo2020ProgressDialogMessage">Ты можешь получить звезды, работая во дворе и саду, убираясь в квартирах соседей, побеждая в гонках на серфах и подушечных баталиях.</message>
+
+        <message key="dzo2020WallMessage1">В Аватарии празднуют День защитника Отечества! Мне подарили уникальный титул! Заходи в Аватарию за подарками и призами!</message>
+        <message key="dzo2020WallMessage2">Друзья-товарищи! Нужна ваша помощь, чтобы заполучить этот крутой приз! Жду вас в Аватарии. Заранее спасибо!</message>
+
+        <message key="dzo2020AwardDialogTitle">Приз твой!</message>
+        <message key="dzo2020AwardDialogMessage">Тебе удалось собрать достаточно звезд, чтобы получить титул! Твои друзья успеют получить такой же, если ты расскажешь им о своих достижениях!</message>
+
+        <message key="dzo2020ThrowEpaulettesNotificationTitle">Погон со звездами</message>
+        <message key="dzo2020ThrowEpaulettesSuccessNotificationMessage">Хитро улыбаясь, ты прячешь погон в квартире своего друга :)</message>
+        <message key="dzo2020ThrowEpaulettesHasEpauletteNotificationMessage">Ой! У твоего друга уже есть погон. Давай позовем его в игру, чтобы он мог собрать еще больше звезд и помочь тебе.</message>
+        <message key="dzo2020ThrowEpaulettesFullHouseNotificationMessage">Ой-ой! Пока твой друг не соберет все погоны, ты не сможешь спрятать новые. Позови его скорее в игру!</message>
+
+        <message key="dzo2020CollectEpaulettesSuccessNotificationMessage">Ты находишь погон, который :throwGender: :name:.</message>
+
+        <message key="dzo2020AskHelpDialogTitle">Мне нужна помощь!</message>
+        <message key="dzo2020AskHelpDialogMessage">Нужны звезды? Много звезд? Без друзей тут вряд ли обойдешься.</message>
+
+        <message key="dzo2020throwEpaulettesButtonHint">Спрятать погоны у соседа</message>
+        <message key="dzo2020throwEpaulettesLockButtonHint">Слишком много погон</message>
+
+        <message key="dzo2020useMagnetButtonHint">Собрать все погоны</message>
+
+        <message key="dzo2020inviteTimeoutDescription">Ты недавно уже приглашал своего друга!</message>
+        <message key="dzo2020noEpaulettesWarning">В твоей квартире нет погон. Зайди к своим соседям чтобы спрятать у них погоны первым!</message>
+
+        <message key="dzo2020magnet">Магнит для поиска погон</message>
+
+
+        <message key="dzo2020ShopDialogTitle">Военторг</message>
+        <message key="dzo2020BuyStarsDialogTitle">Покупка звезд!</message>
+        <message key="dzo2020BuyStarsDialogDescription">Здесь ты можешь приобрести звезды по очень выгодным ценам. Не упусти возможность воспользоваться выгодными предложениями!</message>
+        <message key="dzo2020HeartsBonusCountLabel">+ :count:</message>
+
+
+        <message key="dzo20starInfoDescription">Получай звезды за различные игровые действия и трать их в новом магазине Военторг на новую одежду, мебель и технику.</message>
+        <message key="dzo20epauletInfoDescription">Прячь погоны в квартирах своих соседей и собирай разбросанные друзьями в своем доме, чтобы получить еще больше звезд.</message>
+        <message key="dzo20trophyInfoDescription">Собери за время акции :starCount: звёзд и получи уникальный титул!</message>
+
+        <message key="dzo20CollectPanelTitle">Как еще получить звезды?</message>
+        <message key="dzo20FirstTipLabel">Уборка в саду и во дворе</message>
+        <message key="dzo20FirstTipDescription">Убирая мусор в саду и во дворе ты будешь получать звезды и погоны</message>
+        <message key="dzo20SecondTipLabel">Убирайся у соседей</message>
+        <message key="dzo20SecondTipDescription">Помогай соседям убрать их квартиру и получай в награду звезды и погоны</message>
+        <message key="dzo20ThirdTipLabel">За победу в мини-играх</message>
+        <message key="dzo20ThirdTipDescription">Побеждай в битве на подушках, серфинге,сноуборде и гонках, чтобы получать дополнительные звезды</message>
+        <message key="dzo20FourthTipLabel">Покупка в магазине</message>
+        <message key="dzo20FourthTipDescription">В магазине ты можешь потратить звезды на одежду и мебель, а также докупить недостающее количество </message>
+    </locale>
+</dictionary>

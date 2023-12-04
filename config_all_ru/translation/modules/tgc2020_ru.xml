@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <message key="tGC20InfoDialogTitle">Добро пожаловать в Tortuga Game Club</message>
+        <message key="tGC20InfoDialogDescription">Мы рады приветствовать тебя в нашем игровом центре! В знак благодарности мы хотим наградить тебя:</message>
+        <message key="tGC20InfoDialogHintMessage">Tortuga Game Club</message>
+
+        <message key="tGC20TrophyAwardTitle">Уникальным титулом "TGC"</message>
+        <message key="tGC20TrophyAwardDescription">Титул увеличивает очки в два раза. Повышенная активность действует в течение :count: дней. Сам титул останется в паспорте навсегда. Можно получить за выполнение заданий в оф.группе</message>
+        <message key="tGC20CostumeAwardTitle">Эксклюзивным костюмом "TGC"</message>
+        <message key="tGC20CostumeAwardDescription">Соверши платёж на сумму от :price: и выше и получи уникальный костюм "TGC" в подарок</message>
+        <message key="tGC20ChatBalloonAwardTitle">Необычным оформлением для твоего чата</message>
+        <message key="tGC20ChatBalloonAwardDescription">Добавь новые краски в общение со своими друзьями! Оформление даётся за установку "TGC"</message>
+        <message key="tGC20GiftAwardTitle">Новыми промокодами</message>
+        <message key="tGC20GiftAwardDescription">Теперь на официальных стримах игры появятся спецаильные промокоды для TGC. Мы слышали, что там всегда лежит что-то интересное!</message>
+        <message key="tGC20AwardDialogTitle">Подарок от Tortuga Game Club</message>
+        <message key="tGC20AwardDialogDescription">Спасибо за поддержку Tortuga Game Club, прими этот подарок в знак нашей благодарности!</message>
+        <message key="tGC20ChatDecorAwardDialogDescription">Спасибо за установку Tortuga Game Club, прими этот подарок в знак нашей благодарности!</message>
+        <message key="tGC2AwardReceivedDescription">Награда получена!</message>
+
+    </locale>
+</dictionary>

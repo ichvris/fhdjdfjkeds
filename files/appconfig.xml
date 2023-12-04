@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+
+<config>
+<profile>vkCity</profile>
+<collectStats>false</collectStats>
+<bigBrother url="http://api.big-brother.tortugasocial.com/api" project="avataria-vk" active="false"/>
+<statsActive>false</statsActive>
+<loginCallback>http://127.0.0.1:5000/prelogin</loginCallback>
+<socialAuth url="http://127.0.0.1:5000/auth" ttl="110" social="vkontakte" project="avataria-vk" active="true"/>
+<applicationId>avataria-vk</applicationId>
+<serverconfig protocol="binary"/>
+<hardVirality>false</hardVirality>
+<locationRestrictions>
+<!-- <item id="canyon" on="true" allowedIds="" layer2Active="true"/> -->
+<!--  school = yandexSchool, schoolAvataria = casual school. See more ids in WorkScenarioTypes.as  -->
+<item id="school" on="false" allowedIds=""/>
+<item id="schoolAvataria" on="false" allowedIds=""/>
+</locationRestrictions>
+<metrics>
+<payment type="" counterId=""/>
+<!--<clothesShop type="" counterId=""/> -->
+</metrics>
+<startUpDialog>
+<welcome popup="false" button="false" version="18"/>
+<sharedObjectAward popup="true"/>
+</startUpDialog>
+<globalNews active="false"/>
+<clan>
+<logoUrl>http://127.0.0.1:5000/files/promo/clan/logo/{$id}.png</logoUrl>
+</clan>
+<contentConfigs>
+<contentConfig cdn="default">
+<contentUrl>http://127.0.0.1:5000/files/</contentUrl>
+<contentMirrorUrl/>
+<furnitureUrl>http://127.0.0.1:5000/files/swf/furniture/</furnitureUrl>
+<furnitureMirrorUrl/>
+</contentConfig>
+</contentConfigs>
+<clientLogUrl>http://127.0.0.1:5000/log</clientLogUrl>
+<supportUrl>https://tortuga.zendesk.com</supportUrl>
+<island show="false" exchange="false"/>
+<rating on="true" allowedIds=""/>
+<offersAllowed>false</offersAllowed>
+<activityRating on="true"/>
+<allowedIds>94273176,246030,125602397,3794109,1897004</allowedIds>
+<preloaderThemes>
+<theme id="pillows" url="http://127.0.0.1:5000/files/swf/preloader/PillowFightComix_ru.swf"/>
+<theme id="romance" url="http://127.0.0.1:5000/files/swf/preloader/RomanceComix_ru.swf"/>
+<theme id="dresses" url="http://127.0.0.1:5000/files/swf/preloader/GirlsDressesComix_ru.swf"/>
+</preloaderThemes>
+<appNotAvailableUrls bgUrl="http://127.0.0.1:5000/files/promo/error/ErrorMessageBg.png">
+<message>http://127.0.0.1:5000/files/promo/error/ErrorMessage1_ru.png</message>
+<message>http://127.0.0.1:5000/files/promo/error/ErrorMessage2_ru.png</message>
+<message>http://127.0.0.1:5000/files/promo/error/ErrorMessage3_ru.png</message>
+</appNotAvailableUrls>
+<billing>
+<currency label="votes" pointsRate="700" goldRate="70"/>
+<products>
+<product id="goldCoin" points="70" gold="1" bonusGold="0" icon="OfferGoldPack10@ui" tag=""/>
+<product id="pack10" points="700" gold="10" bonusGold="0" icon="OfferGoldPack30@ui" tag="mainDialog,group0,group1,group2"/>
+<product id="pack30" points="2100" gold="30" bonusGold="2" icon="OfferGoldPack50@ui" tag="mainDialog,group0,group1,group2"/>
+<product id="pack50" points="3500" gold="50" bonusGold="5" icon="OfferGoldPack100@ui" tag="mainDialog,group0,group1,group2" label="topSale"/>
+<product id="pack100" points="7000" gold="100" bonusGold="20" icon="OfferGoldPack200@ui" tag="mainDialog,group0,group1,group2"/>
+<product id="pack200" points="14000" gold="200" bonusGold="60" icon="OfferGoldPack500@ui" tag="mainDialog,group0" label="bestPrice"/>
+<product id="pack500" points="35000" gold="500" bonusGold="200" icon="OfferGoldPack500@ui" tag="mainDialog,group1,group2"/>
+<product id="pack1000" points="70000" gold="1000" bonusGold="450" icon="OfferGoldPack500@ui" tag="mainDialog,group1" label="bestPrice"/>
+<product id="pack1500" points="105000" gold="1500" bonusGold="700" icon="OfferGoldPack500@ui" tag="mainDialog,group2" label="bestPrice"/>
+<product id="pack2500" points="175000" gold="2500" bonusGold="1500" icon="OfferGoldPack500@ui" tag="notEnougth"/>
+<product id="pack5000" points="350000" gold="5000" bonusGold="2000" icon="OfferGoldPack500@ui" tag="notEnougth"/>
+<product id="pack9999" points="700000" gold="9999" bonusGold="4000" icon="OfferGoldPack500@ui" tag="notEnougth"/>
+<product id="packSale10" points="700" gold="10" bonusGold="0" icon="OfferGoldPack100@ui" tag="campaign"/>
+<product id="packSale50" points="2800" oldPoints="3500" gold="50" bonusGold="5" icon="OfferGoldPack100@ui" tag="campaign" label="sale"/>
+<product id="packSale100" points="5600" oldPoints="7000" gold="100" bonusGold="20" icon="OfferGoldPack200@ui" tag="campaign" label="sale"/>
+<product id="packSale200" points="10500" oldPoints="14000" gold="200" bonusGold="60" icon="OfferGoldPack500@ui" tag="campaign" label="topSale"/>
+<product id="packSale1500" points="77000" oldPoints="105000" gold="1500" bonusGold="700" icon="OfferGoldPack500@ui" tag="campaign" label="sale"/>
+<product id="packSale5000" points="210000" oldPoints="350000" gold="5000" bonusGold="2000" icon="OfferGoldPack500@ui" tag="campaign" label="sale"/>
+<product id="packSale9999" points="350000" oldPoints="700000" gold="9999" bonusGold="4000" icon="OfferGoldPack500@ui" tag="campaign" label="sale"/>
+<product id="packSale50_40" points="1400" oldPoints="2800" gold="40" bonusGold="0" icon="OfferGoldPack100@ui" tag="campaign" label="sale"/>
+<product id="packSale50_100" points="3500" oldPoints="7000" gold="100" bonusGold="10" icon="OfferGoldPack200@ui" tag="campaign" label="sale"/>
+<product id="packSale50_200" points="7000" oldPoints="14000" gold="200" bonusGold="25" icon="OfferGoldPack500@ui" tag="campaign" label="topSale"/>
+<product id="packSale50_600" points="21000" oldPoints="42000" gold="600" bonusGold="100" icon="OfferGoldPack500@ui" tag="campaign" label="topSale"/>
+<product id="packSale50_1000" points="35000" oldPoints="70000" gold="1000" bonusGold="250" icon="OfferGoldPack500@ui" tag="campaign" label="topSale"/>
+<product id="packSale50_2000" points="70000" oldPoints="140000" gold="2000" bonusGold="500" icon="OfferGoldPack500@ui" tag="campaign" label="sale"/>
+<product id="packSale50_3000" points="105000" oldPoints="210000" gold="3000" bonusGold="800" icon="OfferGoldPack500@ui" tag="campaign" label="sale"/>
+<product id="packSale50_4000" points="140000" oldPoints="280000" gold="4000" bonusGold="1200" icon="OfferGoldPack500@ui" tag="campaign" label="sale"/>
+<product id="vipPack30" points="2100" gold="30" bonusGold="5" vipDays="1" icon="OfferGoldPack30@ui" tag="campaign"/>
+<product id="vipPack70" points="4900" gold="70" bonusGold="15" vipDays="3" icon="OfferGoldPack50@ui" tag="campaign"/>
+<product id="vipPack120" points="8400" gold="120" bonusGold="35" vipDays="7" icon="OfferGoldPack100@ui" tag="campaign" label="topSale"/>
+<product id="vipPack250" points="17500" gold="250" bonusGold="100" vipDays="14" icon="OfferGoldPack200@ui" tag="campaign"/>
+<product id="vipPack750" points="52500" gold="750" bonusGold="250" vipDays="30" icon="OfferGoldPack200@ui" tag="campaign"/>
+<product id="vipPack2500" points="175000" gold="2500" bonusGold="1000" vipDays="60" icon="OfferGoldPack500@ui" tag="campaign" label="bestPrice"/>
+<product id="startPack1" points="1400" gold="30" silver="500" vipDays="3" tag="onlyOne"/>
+<product id="startPack2" points="69300" gold="1800" silver="10000" vipDays="14" tag="onlyOne"/>
+<product id="startPack3" points="174300" gold="3500" silver="30000" vipDays="30" tag="onlyOne"/>
+<product id="startPack4" points="1400" gold="30" silver="3000" tag="onlyOne"/>
+<product id="startPack5" points="4900" gold="100" silver="1000" tag="onlyOne">
+<items>
+<item id="wtrfll5" count="1" icon="WaterfallDragonOfferIcon@ui"/>
+</items>
+</product>
+<product id="startPack6" points="10500" gold="220" silver="5000" tag="onlyOne">
+<items>
+<item id="wtrfll3" count="1" icon="WaterfallHomeOfferIcon@ui"/>
+</items>
+</product>
+<product id="startPack7" points="21000" gold="500" silver="5000" tag="onlyOne">
+<items>
+<item id="wtrfll4" count="1" icon="WaterfallFountainOfferIcon@ui"/>
+</items>
+</product>
+<product id="startPack8" points="69300" gold="1800" silver="10000" tag="onlyOne">
+<items>
+<item id="dram1" count="1" icon="DoorPortalElfOfferIcon@ui"/>
+</items>
+</product>
+<product id="startPack9" points="174300" gold="4500" silver="50000">
+<items>
+<item id="wllAq1" count="1" icon="WallAquarium1OfferIcon@ui"/>
+</items>
+</product>
+<product id="salesRefPack" points="8400" gold="50" silver="10000" vipDays="100"/>
+<product id="unbanPack1000" points="70000" unban="1" gold="0" tag="unban" label="1000 gold coins"/>
+<product id="unbanPack3000" points="210000" unban="1" gold="0" tag="unban" label="3000 gold coins"/>
+<product id="unbanPack5000" points="350000" unban="1" gold="0" tag="unban" label="5000 gold coins"/>
+<!--  Subscriptions  -->
+<product id="subVipPack1" points="4900" vipDays="7" subscription="true"/>
+<product id="subVipPack2" points="17500" vipDays="30" subscription="true"/>
+<product id="subVipPack3" points="44100" vipDays="90" subscription="true" label="bestPrice"/>
+<product id="subSaleVipPack1" points="3500" oldPoints="4900" vipDays="7" subscription="true" label="sale" tag="campaign"/>
+<product id="subSaleVipPack2" points="11900" oldPoints="17500" vipDays="30" subscription="true" label="topSale" tag="campaign"/>
+<product id="subSaleVipPack3" points="26600" oldPoints="44100" vipDays="90" subscription="true" label="sale" tag="campaign"/>
+<!--  Sale Day  -->
+<product id="saleDayProduct1" points="3500" oldPoints="5600" gold="80" bonusSilver="15000" icon="OfferGoldPack10@ui"/>
+<product id="saleDayProduct2" points="7000" oldPoints="10500" gold="180" bonusSilver="35000" icon="OfferGoldPack100@ui" label="topSale"/>
+<product id="saleDayProduct3" points="28000" oldPoints="42000" gold="750" bonusSilver="150000" icon="OfferGoldPack500@ui" label="bestPrice"/>
+<!--  Clan Ruby  -->
+<product id="rubyPack175" points="3500" ruby="175" bonusRuby="0" icon="ProductRubyAsset1@ui" tag="rubyShop"/>
+<product id="rubyPack350" points="7000" ruby="350" bonusRuby="20" icon="ProductRubyAsset2@ui" tag="rubyShop"/>
+<product id="rubyPack700" points="14000" ruby="700" bonusRuby="80" icon="ProductRubyAsset3@ui" tag="rubyShop"/>
+<product id="rubyPack1750" points="35000" ruby="1750" bonusRuby="300" icon="ProductRubyAsset4@ui" tag="rubyShop"/>
+<product id="rubyPack3500" points="70000" ruby="3500" bonusRuby="800" icon="ProductRubyAsset4@ui" tag="rubyShop"/>
+<product id="rubyPack10500" points="210000" ruby="9900" bonusRuby="3600" icon="ProductRubyAsset5@ui" label="bestPrice" tag="rubyShop"/>
+<!--  Ruby Sale  -->
+<product id="rubySalePack350" points="4900" oldPoints="7000" ruby="350" bonusRuby="20" icon="ProductRubyAsset2@ui" tag="rubyShop,campaign" label="sale"/>
+<product id="rubySalePack700" points="9800" oldPoints="14000" ruby="700" bonusRuby="80" icon="ProductRubyAsset3@ui" tag="rubyShop,campaign" label="sale"/>
+<product id="rubySalePack1750" points="22400" oldPoints="35000" ruby="1750" bonusRuby="300" icon="ProductRubyAsset4@ui" tag="rubyShop,campaign" label="sale"/>
+<product id="rubySalePack3500" points="45500" oldPoints="70000" ruby="3500" bonusRuby="800" icon="ProductRubyAsset4@ui" tag="rubyShop,campaign" label="sale"/>
+<product id="rubySalePack9900" points="126000" oldPoints="210000" ruby="9900" bonusRuby="3600" icon="ProductRubyAsset5@ui" tag="rubyShop,campaign" label="sale"/>
+<!--  NY VK 2020  -->
+<product id="nyvk2020_1Product" points="3500" gold="50">
+<items>
+<item id="nyVk20Gft1" count="1" icon="NyVk20SProductIcon@location"/>
+</items>
+</product>
+<product id="nyvk2020_2Product" points="14000" gold="200">
+<items>
+<item id="nyVk20Gft2" count="1" icon="NyVk20MProductIcon@location"/>
+</items>
+</product>
+<product id="nyvk2020_3Product" points="35000" gold="500">
+<items>
+<item id="nyVk20Gft3" count="1" icon="NyVk20BProductIcon@location"/>
+</items>
+</product>
+</products>
+<silverPacks>
+<product gold="1" silver="100" icon="OfferSilverPack10@ui" tag="mainDialog"/>
+<product gold="5" silver="500" icon="OfferSilverPack50@ui" tag="mainDialog"/>
+<product gold="25" silver="2500" icon="OfferSilverPack500@ui" tag="mainDialog"/>
+<product gold="50" silver="5000" icon="OfferSilverPack5000@ui" tag="mainDialog"/>
+</silverPacks>
+</billing>
+<resourseMap>
+<avatarIcons>swf/AvatarIcons.swf</avatarIcons>
+<appearanceIcons>swf/AppearanceIcons.swf</appearanceIcons>
+<avatarAnimation>swf/AvatarAnimation.swf</avatarAnimation>
+<avatarAppearance>swf/AvatarAppearance.swf</avatarAppearance>
+<boyAvatarClothes>swf/BoyAvatarClothes.swf</boyAvatarClothes>
+<girlAvatarClothes>swf/GirlAvatarClothes.swf</girlAvatarClothes>
+<ui>swf/Ui.swf</ui>
+<uiInit>swf/UiInit.swf</uiInit>
+<uiLang>swf/UiLang_:lang:.swf</uiLang>
+<location>swf/Location.swf</location>
+<house>swf/House.swf</house>
+<kitchen>swf/Kitchen.swf</kitchen>
+<bathroom>swf/Bathroom.swf</bathroom>
+<furniture>swf/Furniture.swf</furniture>
+<decor>swf/Decor.swf</decor>
+<yard>swf/Yard.swf</yard>
+<vip>swf/Vip.swf</vip>
+<cafe>swf/Cafe.swf</cafe>
+<club>swf/Club.swf</club>
+<street>swf/Street.swf</street>
+<park>swf/Park.swf</park>
+<garden>swf/Garden.swf</garden>
+<fortune>swf/FortuneGame_:lang:.swf</fortune>
+<sounds>swf/Sounds.swf</sounds>
+<terrain>swf/Terrain.swf</terrain>
+<landscape>swf/Landscape.swf</landscape>
+<salon>swf/Salon.swf</salon>
+<school>swf/School.swf</school>
+<schoolUi>swf/YandexUi.swf</schoolUi>
+<photoSalon>swf/PhotoSalon.swf</photoSalon>
+<photoSalonPro>swf/PhotoSalonPro.swf</photoSalonPro>
+<publicBeach>swf/PublicBeach.swf</publicBeach>
+<canyon>swf/Canyon.swf</canyon>
+<ballroom>swf/Ballroom.swf</ballroom>
+<couturier>swf/Couturier.swf</couturier>
+<offers>swf/Offers.swf</offers>
+<weddingBeach>swf/WeddingBeach.swf</weddingBeach>
+<iceRink>swf/IceRink.swf</iceRink>
+<wallPost>swf/WallPost.swf</wallPost>
+<mobile>swf/Mobile.swf</mobile>
+<clan>swf/Clan.swf</clan>
+<clanHall>swf/ClanHall.swf</clanHall>
+<stickers>swf/Stickers.swf</stickers>
+<prison>swf/Prison.swf</prison>
+<newyear2014>swf/modules/NewYear2014.swf</newyear2014>
+<stval2014>swf/modules/StValentine2014.swf</stval2014>
+<dzo2014>swf/modules/Dzo2014.swf</dzo2014>
+<springDay2014>swf/modules/SmrDay2014.swf</springDay2014>
+<steampunk2014>swf/modules/Steampunk2014.swf</steampunk2014>
+<newyear2015>swf/modules/NewYear2015.swf</newyear2015>
+<stval2015>swf/modules/StValentine2015.swf</stval2015>
+<springDay2015>swf/modules/SpringDay2015.swf</springDay2015>
+<may1st2015>swf/modules/May1st2015.swf</may1st2015>
+<dirol2015>swf/modules/Dirol2015.swf</dirol2015>
+<kotex2015>swf/modules/Kotex2015.swf</kotex2015>
+<newyear2016>swf/modules/NewYear2016.swf</newyear2016>
+<springDay2016>swf/modules/SpringDay2016.swf</springDay2016>
+<firstApril2016>swf/modules/FirstApril2016.swf</firstApril2016>
+<avaBirthday2016>swf/modules/AvaBirthday2016.swf</avaBirthday2016>
+<familyDay2016>swf/modules/FamilyDay2016.swf</familyDay2016>
+<halloween2016>swf/modules/Halloween2016.swf</halloween2016>
+<newyear2017>swf/modules/NewYear2017.swf</newyear2017>
+<shrovetide2017>swf/modules/Shrovetide2017.swf</shrovetide2017>
+<springDay2017>swf/modules/SpringDay2017.swf</springDay2017>
+<firstApril2017>swf/modules/FirstApril2017.swf</firstApril2017>
+<avaBirthday2017>swf/modules/AvaBirthday2017.swf</avaBirthday2017>
+<halloween2017>swf/modules/Halloween2017.swf</halloween2017>
+<clubHlwn>swf/events/ClubHlwn.swf</clubHlwn>
+<locationHlwn>swf/events/LocationHlwn.swf</locationHlwn>
+<newyear2018>swf/modules/NewYear2018.swf</newyear2018>
+<skiResort>swf/SkiResort.swf</skiResort>
+<cafeNY>swf/events/CafeNY.swf</cafeNY>
+<streetNY>swf/events/StreetNY.swf</streetNY>
+<clubNY>swf/events/ClubNY.swf</clubNY>
+<landscapeNY>swf/events/LandscapeNY.swf</landscapeNY>
+<parkNY>swf/events/ParkNY.swf</parkNY>
+<salonNY>swf/events/SalonNY.swf</salonNY>
+<vipNY>swf/events/VipNY.swf</vipNY>
+<stVal2018>swf/modules/StValentine2018.swf</stVal2018>
+<dzo2018>swf/modules/Dzo2018.swf</dzo2018>
+<springDay2018>swf/modules/SpringDay2018.swf</springDay2018>
+<firstApril2018>swf/modules/FirstApril2018.swf</firstApril2018>
+<avaBirthday2018>swf/modules/AvaBirthday2018.swf</avaBirthday2018>
+<halloween2018>swf/modules/Halloween2018.swf</halloween2018>
+<memories>swf/Memories.swf</memories>
+<parkHlwn>swf/events/ParkHlwn.swf</parkHlwn>
+<ballroomHlwn>swf/events/BallroomHlwn.swf</ballroomHlwn>
+<podium>swf/Podium.swf</podium>
+<newyear2019>swf/modules/NewYear2019.swf</newyear2019>
+<vkPay2018>swf/modules/VKPay2018.swf</vkPay2018>
+<stval2019>swf/modules/StValentine2019.swf</stval2019>
+<dzo2019>swf/modules/Dzo2019.swf</dzo2019>
+<springDay2019>swf/modules/SpringDay2019.swf</springDay2019>
+<firstApril2019>swf/modules/FirstApril2019.swf</firstApril2019>
+<streetAvaBD>swf/events/StreetAvaBD.swf</streetAvaBD>
+<seasonEvent>swf/modules/SeasonEvent.swf</seasonEvent>
+<stories01>swf/modules/Stories01.swf</stories01>
+<newyear2020>swf/modules/NewYear2020.swf</newyear2020>
+<stval2020>swf/modules/StValentine2020.swf</stval2020>
+<dzo2020>swf/modules/Dzo2020.swf</dzo2020>
+<firstApril2020>swf/modules/FirstApril2020.swf</firstApril2020>
+<playAtHome2020>swf/modules/PlayAtHome2020.swf</playAtHome2020>
+<avaBirthday2020>swf/modules/AvaBirthday2020.swf</avaBirthday2020>
+<tgc2020>swf/modules/TGC2020.swf</tgc2020>
+<newyear2021>swf/modules/NewYear2021.swf</newyear2021>
+<survived2020>swf/modules/Survived2020.swf</survived2020>
+<config>data/config_all_ru.zip</config>
+</resourseMap>
+<resourseMapMirror>
+<avatarIcons>swf/AvatarIcons.swf</avatarIcons>
+<appearanceIcons>swf/AppearanceIcons.swf</appearanceIcons>
+<avatarAnimation>swf/AvatarAnimation.swf</avatarAnimation>
+<avatarAppearance>swf/AvatarAppearance.swf</avatarAppearance>
+<boyAvatarClothes>swf/BoyAvatarClothes.swf</boyAvatarClothes>
+<girlAvatarClothes>swf/GirlAvatarClothes.swf</girlAvatarClothes>
+<ui>swf/Ui.swf</ui>
+<uiInit>swf/UiInit.swf</uiInit>
+<uiLang>swf/UiLang_:lang:.swf</uiLang>
+<location>swf/Location.swf</location>
+<house>swf/House.swf</house>
+<kitchen>swf/Kitchen.swf</kitchen>
+<bathroom>swf/Bathroom.swf</bathroom>
+<furniture>swf/Furniture.swf</furniture>
+<decor>swf/Decor.swf</decor>
+<yard>swf/Yard.swf</yard>
+<vip>swf/Vip.swf</vip>
+<cafe>swf/Cafe.swf</cafe>
+<club>swf/Club.swf</club>
+<street>swf/Street.swf</street>
+<park>swf/Park.swf</park>
+<garden>swf/Garden.swf</garden>
+<fortune>swf/FortuneGame_:lang:.swf</fortune>
+<sounds>swf/Sounds.swf</sounds>
+<terrain>swf/Terrain.swf</terrain>
+<landscape>swf/Landscape.swf</landscape>
+<salon>swf/Salon.swf</salon>
+<school>swf/School.swf</school>
+<schoolUi>swf/YandexUi.swf</schoolUi>
+<photoSalon>swf/PhotoSalon.swf</photoSalon>
+<photoSalonPro>swf/PhotoSalonPro.swf</photoSalonPro>
+<publicBeach>swf/PublicBeach.swf</publicBeach>
+<canyon>swf/Canyon.swf</canyon>
+<offers>swf/Offers.swf</offers>
+<weddingBeach>swf/WeddingBeach.swf</weddingBeach>
+<iceRink>swf/IceRink.swf</iceRink>
+<wallPost>swf/WallPost.swf</wallPost>
+<mobile>swf/Mobile.swf</mobile>
+<clan>swf/Clan.swf</clan>
+<clanHall>swf/ClanHall.swf</clanHall>
+<stickers>swf/Stickers.swf</stickers>
+<prison>swf/Prison.swf</prison>
+<newyear2014>swf/modules/NewYear2014.swf</newyear2014>
+<stval2014>swf/modules/StValentine2014.swf</stval2014>
+<dzo2014>swf/modules/Dzo2014.swf</dzo2014>
+<springDay2014>swf/modules/SmrDay2014.swf</springDay2014>
+<steampunk2014>swf/modules/Steampunk2014.swf</steampunk2014>
+<newyear2015>swf/modules/NewYear2015.swf</newyear2015>
+<stval2015>swf/modules/StValentine2015.swf</stval2015>
+<may1st2015>swf/modules/May1st2015.swf</may1st2015>
+<dirol2015>swf/modules/Dirol2015.swf</dirol2015>
+<kotex2015>swf/modules/Kotex2015.swf</kotex2015>
+<newyear2016>swf/modules/NewYear2016.swf</newyear2016>
+<springDay2016>swf/modules/SpringDay2016.swf</springDay2016>
+<firstApril2016>swf/modules/FirstApril2016.swf</firstApril2016>
+<avaBirthday2016>swf/modules/AvaBirthday2016.swf</avaBirthday2016>
+<familyDay2016>swf/modules/FamilyDay2016.swf</familyDay2016>
+<halloween2016>swf/modules/Halloween2016.swf</halloween2016>
+<newyear2017>swf/modules/NewYear2017.swf</newyear2017>
+<shrovetide2017>swf/modules/Shrovetide2017.swf</shrovetide2017>
+<springDay2017>swf/modules/SpringDay2017.swf</springDay2017>
+<firstApril2017>swf/modules/FirstApril2017.swf</firstApril2017>
+<avaBirthday2017>swf/modules/AvaBirthday2017.swf</avaBirthday2017>
+<halloween2017>swf/modules/Halloween2017.swf</halloween2017>
+<clubHlwn>swf/events/ClubHlwn.swf</clubHlwn>
+<locationHlwn>swf/events/LocationHlwn.swf</locationHlwn>
+<newyear2018>swf/modules/NewYear2018.swf</newyear2018>
+<skiResort>swf/SkiResort.swf</skiResort>
+<cafeNY>swf/events/CafeNY.swf</cafeNY>
+<streetNY>swf/events/StreetNY.swf</streetNY>
+<clubNY>swf/events/ClubNY.swf</clubNY>
+<landscapeNY>swf/events/LandscapeNY.swf</landscapeNY>
+<parkNY>swf/events/ParkNY.swf</parkNY>
+<salonNY>swf/events/SalonNY.swf</salonNY>
+<vipNY>swf/events/VipNY.swf</vipNY>
+<stVal2018>swf/modules/StValentine2018.swf</stVal2018>
+<dzo2018>swf/modules/Dzo2018.swf</dzo2018>
+<springDay2018>swf/modules/SpringDay2018.swf</springDay2018>
+<firstApril2018>swf/modules/FirstApril2018.swf</firstApril2018>
+<avaBirthday2018>swf/modules/AvaBirthday2018.swf</avaBirthday2018>
+<halloween2018>swf/modules/Halloween2018.swf</halloween2018>
+<memories>swf/Memories.swf</memories>
+<parkHlwn>swf/events/ParkHlwn.swf</parkHlwn>
+<ballroomHlwn>swf/events/BallroomHlwn.swf</ballroomHlwn>
+<podium>swf/Podium.swf</podium>
+<newyear2019>swf/modules/NewYear2019.swf</newyear2019>
+<vkPay2018>swf/modules/VKPay2018.swf</vkPay2018>
+<stval2019>swf/modules/StValentine2019.swf</stval2019>
+<dzo2019>swf/modules/Dzo2019.swf</dzo2019>
+<springDay2019>swf/modules/SpringDay2019.swf</springDay2019>
+<firstApril2019>swf/modules/FirstApril2019.swf</firstApril2019>
+<streetAvaBD>swf/events/StreetAvaBD.swf</streetAvaBD>
+<seasonEvent>swf/modules/SeasonEvent.swf</seasonEvent>
+<stories01>swf/modules/Stories01.swf</stories01>
+<newyear2020>swf/modules/NewYear2020.swf</newyear2020>
+<stval2020>swf/modules/StValentine2020.swf</stval2020>
+<dzo2020>swf/modules/Dzo2020.swf</dzo2020>
+<firstApril2020>swf/modules/FirstApril2020.swf</firstApril2020>
+<playAtHome2020>swf/modules/PlayAtHome2020.swf</playAtHome2020>
+<avaBirthday2020>swf/modules/AvaBirthday2020.swf</avaBirthday2020>
+<tgc2020>swf/modules/TGC2020.swf</tgc2020>
+<newyear2021>swf/modules/NewYear2021.swf</newyear2021>
+<survived2020>swf/modules/Survived2020.swf</survived2020>
+<config>data/config_all_ru.zip</config>
+</resourseMapMirror>
+<musicTracks>
+<cafe1>music/Cafe1.mp3</cafe1>
+<cafe2>music/Cafe2.mp3</cafe2>
+<home1>music/Home1.mp3</home1>
+<home2>music/Home2.mp3</home2>
+<job1>music/Job1.mp3</job1>
+<job2>music/Job2.mp3</job2>
+<outside1>music/Outside1.mp3</outside1>
+<outside2>music/Outside2.mp3</outside2>
+<vip1>music/VIP1.mp3</vip1>
+<vip2>music/VIP2.mp3</vip2>
+<club1>music/Club1.mp3</club1>
+<club2>music/Club2.mp3</club2>
+<skiResort>music/SkiResort.mp3</skiResort>
+<testTrack1>music/TopForTest.mp3</testTrack1>
+<testTrack2>music/CrossLilu.mp3</testTrack2>
+<!-- ROCK SCENE -->
+<rockSceneGirl1>music/rockScene/RockSceneGirl1.mp3</rockSceneGirl1>
+<rockSceneGirl2>music/rockScene/RockSceneGirl2.mp3</rockSceneGirl2>
+<rockSceneGirl3>music/rockScene/RockSceneGirl3.mp3</rockSceneGirl3>
+<rockSceneBoy1>music/rockScene/RockSceneBoy1.mp3</rockSceneBoy1>
+<rockSceneBoy2>music/rockScene/RockSceneBoy2.mp3</rockSceneBoy2>
+<rockSceneBoy3>music/rockScene/RockSceneBoy3.mp3</rockSceneBoy3>
+</musicTracks>
+<modules> </modules>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <message key="pat20Tag">#ИграемДома</message>
+        <message key="pat20MoreResources">во время акции за победу здесь ты можешь получить больше ресурсов</message>
+    </locale>
+</dictionary>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="ru">
+        <message key="avaBirthday2020ProgressDialogTitle">Чертеж корабля</message>
+        <message key="avaBirthday2020ProgressDialogDescription">Собери все части чертежа корабля и получи уникальный подарок. Пират укажет тебе места, где ты сможешь попытать свою удачу.</message>
+        <message key="avaBirthday2020ProgressDialogCompleteDescription">Чертеж корабля собран! Отдай его пирату и получи заслуженную награду!</message>
+
+        <message key="avaBirthday2020InfoDialogTopMessage">Загляни на Пляж, в Аватарию прибыли пираты, они нуждаются в твоей помощи!</message>
+
+        <message key="avaBirthday2020ReturnToPirateLabel">отдать пирату</message>
+        <message key="avaBirthday2020InfoDialogDialogTitle">Добро пожаловать!</message>
+        <message key="avaBirthday2020InfoDialogTopMessage">Загляни на Пляж, в Аватарию прибыли пираты, они нуждаются в твоей помощи!</message>
+        <message key="avaBirthday2020InfoDialogMiddleMessage">Используй компас, чтобы отыскать сокровища на отмеченных локациях.</message>
+        <message key="avaBirthday2020InfoDialogBottomMessage">Отдай чертеж корабля пирату и получи награду!</message>
+
+        <message key="avaBirthday2020GoToPirateHint">Перейти к пирату</message>
+        <message key="avaBirthday2020CooldownHint">Компас временно неактивен</message>
+        <message key="avaBirthday2020NotCompleteSessionHint">Используй все подсказки</message>
+        <message key="avaBirthday2020CreateExcavationHint">Использовать компас</message>
+        <message key="avaBirthday2020NoExcavationsHint">Тут ничего нет</message>
+        <message key="avaBirthday2020HelpHint"><![CDATA[<p><font size="13">Нажми, чтобы начать поиски</font></p>]]></message>
+
+        <gender key="avaBirthday2020PirateHint">
+            <form>Джон Крюк</form>
+            <form>Мэри Рид</form>
+        </gender>
+
+        <message key="avaBirthday2020PirateTargetMessage1">Эй, ты, сухопутная крыска, подойди, у меня есть для тебя важное задание!</message>
+        <message key="avaBirthday2020PirateMessage1">Кто бы мне помог с одним делом...</message>
+        <message key="avaBirthday2020PirateMessage2">Проклятье медузы! Шторм разрушил мой корабль!</message>
+
+        <gender key="avaBirthday2020PirateMessage2">
+            <form>Тысяча горбатых моллюсков! Ты еще не нашел чертеж корабля? Но он мне очень нужен...</form>
+            <form>Тысяча горбатых моллюсков! Ты еще не нашла чертеж корабля? Но он мне очень нужен...</form>
+        </gender>
+        <message key="avaBirthday2020PirateMessage3">Нужна только лопата и немного Фортуны, смекаешь?</message>
+        <message key="avaBirthday2020PirateTargetMessage2">Эй, мне уже надоело просаливать кости, где чертеж?</message>
+
+        <gender key="avaBirthday2020PirateMessage4">
+            <form>Наконец-то! Ты нашел чертеж корабля! Давай его сюда скорее!</form>
+            <form>Наконец-то! Ты нашла чертеж корабля! Давай его сюда скорее!</form>
+        </gender>
+
+        <message key="avaBirthday2020PirateTargetMessage3">Скоро я вернусь в Тропиканию! И все благодаря тебе!</message>
+
+        <message key="avaBirthday2020PirateCommonMessage1">Хорошо, что только у меня есть лодка!</message>
+        <message key="avaBirthday2020PirateCommonMessage2">А островок, что мог бы быть курортом, Объектом станет дьявольских страстей!</message>
+        <message key="avaBirthday2020PirateCommonMessage3">Учитель капитана – шторм.</message>
+        <message key="avaBirthday2020PirateCommonMessage4">Гром и молния!</message>
+        <message key="avaBirthday2020PirateCommonMessage5">Скоро я исследую новые места для поиска чертежа!</message>
+        <gender key="avaBirthday2020PirateCommonMessage6">
+            <form>Я разведал для тебя новые места! Иди туда и принеси мне чертов чертеж! </form>
+            <form>Я разведала для тебя новые места! Иди туда и принеси мне чертов чертеж! </form>
+        </gender>
+
+        <message key="avaBirthday2020ParticipationDialogTitle">Компас</message>
+        <message key="avaBirthday2020ParticipationDialogButtonLabel">на поиски!</message>
+        <message key="avaBirthday2020ParticipationDialogDescription">У меня есть сведения, что в Аватарии спрятаны сокровища. Возьми этот компас, он укажет, где копать.</message>
+
+        <gender key="avaBirthday2020SelectAwardDialogDescription">
+            <form>Ты помог мне с поиском чертежа корабля! В благодарность за это, я хочу дать тебе награду! </form>
+            <form>Ты помогла мне с поиском чертежа корабля! В благодарность за это, я хочу дать тебе награду!</form>
+        </gender>
+
+        <message key="avaBirthday2020WallGetAwardMessage">Мне подарили замечательный подарок в награду за прохождение акции. Хочешь получить такой же? Жду тебя в игре! :link:</message>
+        <message key="avaBirthday2020AwardDialogDescription">Мы дарим тебе этот замечательный подарок за усердие, проявленное в акции! Продолжай в том же духе и обязательно поделись этой новостью с друзьями!</message>
+
+        <message key="avaBirthday2020WallGetAwardTitle">День рождения Аватарии</message>
+        <message key="avaBirthday2020FullMapNotificationButtonLabel">отдать</message>
+        <message key="avaBirthday2020FullMapNotificationTitle">Чертеж корабля собран!</message>
+        <message key="avaBirthday2020FullMapNotificationDescription">Отдай его пирату и получи заслуженную награду!</message>
+        <gender key="avaBirthday2020AwardNotificationDescription">
+            <form>Ты получил свою награду за успешное прохождение акции!</form>
+            <form>Ты получила свою награду за успешное прохождение акции!</form>
+        </gender>
+
+        <message key="avaBirthday2020ShopDialogTitle">Пиратский магазин</message>
+        <message key="avaBirthday2020BuyPiastresDialogTitle">Покупка пиастров</message>
+        <message key="avaBirthday2020BuyPiastresDialogDescription">Здесь ты можешь приобрести пиастры по очень выгодным ценам. Не упусти возможность воспользоваться выгодными предложениями!</message>
+        <message key="avaBirthday2020InfoPuzzleDescription">Подготовь подводное снаряжение, чтобы отыскать части чертежа корабля. За это ты получишь уникальный подарок!</message>
+        <message key="avaBirthday2020InfoShopDescription">Используй компас для поиска пиастров. На них ты сможешь приобрести уникальные предметы из нашего акционного магазина.</message>
+        <message key="avaBirthday2020InfoTrophyDescription">Собери необходимое количество пиастров и получи за это уникальный титул</message>
+        <message key="avaBirthday2020NextDivingSession">Я смогу разведать еще места через :time:</message>
+        <gender key="avaBirthday2020DivingSessionCreated">
+            <form>Я разведал новые места и отметил их на карте моря</form>
+            <form>Я разведала новые места и отметила их на карте моря</form>
+        </gender>
+        <message key="avaBirthday2020StartDivingDialogTitle">Погружение</message>
+        <message key="avaBirthday2020DiveButtonTitle">погрузиться</message>
+        <message key="avaBirthday2020StartDivingCount">Осталось погружений: :count:</message>
+        <message key="avaBirthday2020StartDivingDialogDescription">Пираты считают, что в этом месте ты сможешь найти части чертежа корабля. Скорее надевай снаряжение и отправляйся на поиски!</message>
+
+        <message key="avaBirthday2020CraftComponentDescription">Можно найти при поиске сокровищ с помощью компаса</message>
+        <message key="ab20GlassLabel">Стекло</message>
+        <message key="ab20FrameLabel">Оправа</message>
+        <message key="ab20TubeLabel">Трубка</message>
+        <message key="ab20StrapLabel">Ремешок</message>
+
+        <gender key="avaBirthday2020DiveAwardYouHasFound">
+            <form>Ты нашел:</form>
+            <form>Ты нашла:</form>
+        </gender>
+        <gender key="avaBirthday2020DiveAwardNothingWasFound">
+            <form>Ты ничего не нашел</form>
+            <form>Ты ничего не нашла</form>
+        </gender>
+        <message key="avaBirthday2020Alas">Увы...</message>
+        <gender key="avaBirthday2020ProgressDialogAwardedDescription">
+            <form>Ты помог пиратам собрать чертёж корабля и получил от них награду. Продолжай искать пиастры, чтобы покупать уникальные предметы из пиратского магазина.</form>
+            <form>Ты помогла пиратам собрать чертёж корабля и получила от них награду. Продолжай искать пиастры, чтобы покупать уникальные предметы из пиратского магазина.</form>
+        </gender>
+    </locale>
+</dictionary>

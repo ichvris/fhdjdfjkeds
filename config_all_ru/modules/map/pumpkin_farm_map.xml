@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<map width="34" length="35">
+    <viewport x="415" y="-630" width="1195" height="845"/>
+    <items>
+        <item class="backgroundItem" wx="26.19296875" wy="-13.30390625" skin="HalloweenFarmLocation@halloween2018"/>
+        <item class="walkingGridItem" cols="34" rows="35">
+            <grid>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+            </grid>
+        </item>
+        <item class="landscapeItem" wx="14" kind="scarecrow" wy="4" wz="0" id="scarecrow"/>
+        <item class="animatedItem" wx="35.3" kind="crownSW" frameCount="340" wy="1" wz="0" id="crownSW1"/>
+        <item class="animatedItem" wx="35.5" kind="crownSW" frameCount="340" wy="2.6" wz="0" id="crownSW2"/>
+        <item class="animatedItem" wx="35.7" kind="crownSW" frameCount="340" wy="5.7" wz="0" id="crownSW3"/>
+        <item class="animatedItem" wx="26.9" kind="crownSE" frameCount="340" wy="-7.6" wz="0" id="crownSE1"/>
+        <item class="landscapeItem" wx="24.45" kind="pumpkinFarmLamp" wy="6.7" wz="0" id="pumpkinFarmLamp"/>
+        <item class="landscapeItem" wx="24.39" kind="pumpkinFarmLamp2" wy="14.2" wz="0" id="pumpkinFarmLamp2"/>
+        <item class="landscapeItem" wx="27.5" kind="pumpkinFarmSkull" wy="-5.44" wz="0" id="pumpkinFarmSkull"/>
+        <item class="landscapeItem" wx="31.7" kind="pumpkinFarmHead" wy="16.14" wz="0" id="pumpkinFarmHead"/>
+        <item class="landscapeItem" wx="-0.1" kind="pumpkinFarmClowworms" wy="12.97" wz="0" id="pumpkinFarmClowworms"/>
+        <item class="landscapeItem" wx="19.5875" kind="swampBubbles" wy="11.6575" wz="0" id="swampBubbles"/>
+        <item class="gardenBedItem" itemIndex="0" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="13" kind="pumpkinGardenBed" wy="1" wz="0" id="pumpkin0"/>
+        <item class="gardenBedItem" itemIndex="1" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="6" kind="pumpkinGardenBed" wy="8" wz="0" id="pumpkin1"/>
+        <item class="gardenBedItem" itemIndex="2" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="12" kind="pumpkinGardenBed" wy="8" wz="0" id="pumpkin2"/>
+        <item class="gardenBedItem" itemIndex="3" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="6" kind="pumpkinGardenBed" wy="14" wz="0" id="pumpkin3"/>
+        <item class="gardenBedItem" itemIndex="4" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="19" kind="pumpkinGardenBed" wy="5" wz="0" id="pumpkin4"/>
+        <item class="gardenBedItem" itemIndex="5" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="15" kind="pumpkinGardenBed" wy="13" wz="0" id="pumpkin5"/>
+        <item class="gardenBedItem" itemIndex="6" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="10" kind="pumpkinGardenBed" wy="16" wz="0" id="pumpkin6"/>
+        <item class="gardenBedItem" itemIndex="7" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="20" kind="pumpkinGardenBed" wy="15" wz="0" id="pumpkin7"/>
+        <item class="gardenBedItem" itemIndex="8" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="15" kind="pumpkinGardenBed" wy="19" wz="0" id="pumpkin8"/>
+        <item class="gardenBedItem" itemIndex="9" premiumSkin="HW20ScarePumpkin@halloween2018"
+            wx="19" kind="pumpkinGardenBed" wy="21" wz="0" id="pumpkin9"/>
+        <item class="witchItem" wx="21" kind="witch" wy="10" wz="0" id="witch"/>
+    </items>
+</map>
