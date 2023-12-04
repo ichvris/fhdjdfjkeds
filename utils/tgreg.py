@@ -8,7 +8,7 @@ from utils import bot_common
 
 
 
-TOKEN = "6663087665:AAHSrLFl-9543xbBt6pUYUVr6LqkYLZkmPM" # token of bot from @BotFather
+TOKEN = "6296239815:AAHWZ_iYhTCVw8OwsASmwPI_R0mnIo5SHDE" # token of bot from @BotFather
 
 
 bot = Bot(token=TOKEN)
