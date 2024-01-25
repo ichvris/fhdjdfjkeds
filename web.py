@@ -8,7 +8,7 @@ xml = """<?xml version="1.0" ?>
 <allow-access-from domain="*" />
 </cross-domain-policy>"""
 
-HOST = "103.45.247.219"  # айпи веб сервера
+HOST = "45.91.168.32"  # айпи веб сервера
 PORT = 5000  # порт
 
 redis = Redis(decode_responses=True)
