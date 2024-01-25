@@ -5,8 +5,8 @@
 <collectStats>false</collectStats>
 <bigBrother url="http://api.big-brother.tortugasocial.com/api" project="avataria-vk" active="false"/>
 <statsActive>false</statsActive>
-<loginCallback>http://103.45.247.219:5000/prelogin</loginCallback>
-<socialAuth url="http://103.45.247.219:5000/auth" ttl="110" social="vkontakte" project="avataria-vk" active="true"/>
+<loginCallback>http://45.91.169.245:5000/prelogin</loginCallback>
+<socialAuth url="http://45.91.169.245:5000/auth" ttl="110" social="vkontakte" project="avataria-vk" active="true"/>
 <applicationId>avataria-vk</applicationId>
 <serverconfig protocol="binary"/>
 <hardVirality>false</hardVirality>
@@ -26,17 +26,17 @@
 </startUpDialog>
 <globalNews active="false"/>
 <clan>
-<logoUrl>http://103.45.247.219:5000/files/promo/clan/logo/{$id}.png</logoUrl>
+<logoUrl>http://45.91.169.245:5000/files/promo/clan/logo/{$id}.png</logoUrl>
 </clan>
 <contentConfigs>
 <contentConfig cdn="default">
-<contentUrl>http://103.45.247.219:5000/files/</contentUrl>
+<contentUrl>http://45.91.169.245:5000/files/</contentUrl>
 <contentMirrorUrl/>
-<furnitureUrl>http://103.45.247.219:5000/files/swf/furniture/</furnitureUrl>
+<furnitureUrl>http://45.91.169.245:5000/files/swf/furniture/</furnitureUrl>
 <furnitureMirrorUrl/>
 </contentConfig>
 </contentConfigs>
-<clientLogUrl>http://103.45.247.219:5000/log</clientLogUrl>
+<clientLogUrl>http://45.91.169.245:5000/log</clientLogUrl>
 <supportUrl>https://tortuga.zendesk.com</supportUrl>
 <island show="false" exchange="false"/>
 <rating on="true" allowedIds=""/>
@@ -44,14 +44,14 @@
 <activityRating on="true"/>
 <allowedIds>94273176,246030,125602397,3794109,1897004</allowedIds>
 <preloaderThemes>
-<theme id="pillows" url="http://103.45.247.219:5000/files/swf/preloader/PillowFightComix_ru.swf"/>
-<theme id="romance" url="http://103.45.247.219:5000/files/swf/preloader/RomanceComix_ru.swf"/>
-<theme id="dresses" url="http://103.45.247.219:5000/files/swf/preloader/GirlsDressesComix_ru.swf"/>
+<theme id="pillows" url="http://45.91.169.245:5000/files/swf/preloader/PillowFightComix_ru.swf"/>
+<theme id="romance" url="http://45.91.169.245:5000/files/swf/preloader/RomanceComix_ru.swf"/>
+<theme id="dresses" url="http://45.91.169.245:5000/files/swf/preloader/GirlsDressesComix_ru.swf"/>
 </preloaderThemes>
-<appNotAvailableUrls bgUrl="http://103.45.247.219:5000/files/promo/error/ErrorMessageBg.png">
-<message>http://103.45.247.219:5000/files/promo/error/ErrorMessage1_ru.png</message>
-<message>http://103.45.247.219:5000/files/promo/error/ErrorMessage2_ru.png</message>
-<message>http://103.45.247.219:5000/files/promo/error/ErrorMessage3_ru.png</message>
+<appNotAvailableUrls bgUrl="http://45.91.169.245:5000/files/promo/error/ErrorMessageBg.png">
+<message>http://45.91.169.245:5000/files/promo/error/ErrorMessage1_ru.png</message>
+<message>http://45.91.169.245:5000/files/promo/error/ErrorMessage2_ru.png</message>
+<message>http://45.91.169.245:5000/files/promo/error/ErrorMessage3_ru.png</message>
 </appNotAvailableUrls>
 <billing>
 <currency label="votes" pointsRate="700" goldRate="70"/>
